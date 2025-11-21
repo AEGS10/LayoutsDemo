@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/yo"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alvaro Garcia"
+        android:textSize="22sp"
+        android:layout_toEndOf="@id/imgPerfil"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alvaro@mail.com"
+        android:layout_below="@id/txtNombre"
+        android:layout_toEndOf="@id/imgPerfil"
+        android:layout_marginStart="20dp" />
+
+</RelativeLayout>

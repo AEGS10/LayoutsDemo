@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TableRow>
+        <TextView
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:padding="10dp" />
+        <TextView
+            android:text="Edad"
+            android:textStyle="bold"
+            android:padding="10dp" />
+        <TextView
+            android:text="Celular"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Alvaro"
+            android:padding="10dp" />
+        <TextView
+            android:text="23"
+            android:padding="10dp" />
+        <TextView
+            android:text="0951630490"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Ernesto"
+            android:padding="10dp" />
+        <TextView
+            android:text="24"
+            android:padding="10dp" />
+        <TextView
+            android:text="0964086078"
+            android:padding="10dp" />
+    </TableRow>
+
+</TableLayout>
